@@ -6,7 +6,7 @@ def my_find(collection)
   }
 end
 
-def collection_testing(collection)
+def collection_testing
     i = 0
     collect_test = [1,2,3,4,5]
     for i in collect_test
@@ -14,3 +14,5 @@ def collection_testing(collection)
         i += 1
       end
 end
+
+puts collection
