@@ -1,7 +1,11 @@
 require 'pry'
 
 def my_find(collection)
-  collection.each {|element|
-    if yield(element) return element
-  }
+  i = 0
+  until i = collection.length
+    if yield(i)
+      return i
+    end
+    i += 1
+  end
 end
