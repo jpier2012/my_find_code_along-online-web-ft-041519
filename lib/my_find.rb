@@ -1,19 +1,7 @@
 require 'pry'
 
-# def my_find(collection)
-#   collection.each {|element|
-#     if yield(element) return yield(element)
-#   }
-# end
-
-def collection_testing
-    i = 0
-    collect_test = [1,2,3,4,5]
-    while i <= 5
-
-      i += 1
-            return i
-    end
+def my_find(collection)
+  collection.each {|element|
+    if yield(element) return yield(element)
+  }
 end
-
-puts collection_testing
