@@ -10,8 +10,9 @@ def collection_testing
     i = 0
     collect_test = [1,2,3,4,5]
     while i <= 5
-      return i
+
       i += 1
+            return i
     end
 end
 
