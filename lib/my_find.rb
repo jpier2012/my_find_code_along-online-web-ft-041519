@@ -15,4 +15,4 @@ def collection_testing
       end
 end
 
-puts collection
+puts collection_testing
