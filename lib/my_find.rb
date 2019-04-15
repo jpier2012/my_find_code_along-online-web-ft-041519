@@ -9,10 +9,10 @@ end
 def collection_testing
     i = 0
     collect_test = [1,2,3,4,5]
-    for i in collect_test
-      if i == 3 return i
-        i += 1
-      end
+    while i <= 5 
+      return i
+      i += 1
+    end
 end
 
 puts collection_testing
