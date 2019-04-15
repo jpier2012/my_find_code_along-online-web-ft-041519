@@ -8,7 +8,7 @@ def my_find(collection)
     if i == 3 return i
       i += 1
     end
-  
+
   collection.each {|element|
     if yield(element) return yield(element)
   }
